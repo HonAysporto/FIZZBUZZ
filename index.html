@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIZZBUZZ</title>
+    <style>
+       @media (max-width: 475px) {
+        body{
+            overflow: hidden;
+            background: linear-gradient(to bottom, rgb(222, 239, 247), blue);
+            background-position: center;
+            background-size: cover;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+           
+            position: relative;
+        }
+
+        .main1{
+            overflow: hidden;
+        }
+
+        .pict, .picture, .pict2, .picture2, .pict3, .picture3{
+        display: none;
+    
+        }
+
+        .main1{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-bottom: 259px;
+            height: 300px;
+          
+            width: 200px;
+            box-shadow: 0px 0px 10px rgb(211, 174, 174);
+        }
+
+       
+
+
+
+       }
+
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+          
+        }
+
+        .pict{
+            width: 80px;
+            height: 80px;
+            animation-timing-function: linear;
+    animation-duration: 12s;
+    animation-name: aeroplane;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+        }
+
+        .picture{
+            width: 80px;
+            height: 80px;
+            animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-name: helecopter;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+        }
+
+        .pict2{
+            width: 80px;
+            height: 80px;
+            animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-name: aeroplane2;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+        }
+
+        .picture2{
+            width: 80px;
+            height: 80px;
+            animation-timing-function: linear;
+    animation-duration: 13s;
+    animation-name: helecopter2;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+        }
+
+        .pict3{
+            width: 80px;
+            height: 80px;
+            animation-timing-function: linear;
+    animation-duration: 11s;
+    animation-name: aeroplane3;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+        }
+
+        .picture3{
+            width: 80px;
+            height: 80px;
+            animation-timing-function: linear;
+    animation-duration: 8s;
+    animation-name: helecopter3;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+        }
+      
+
+        @keyframes aeroplane {
+    0% {
+        left: 20px; top: 1000px;
+        width: 200px;
+        height: 200px;
+    }
+
+  
+    100% {
+         top: -2500px;
+         width: 0px;
+         height: 0px;
+
+    }
+
+
+    
+}
+
+@keyframes helecopter {
+    0% {
+        left: 200px; top: 1500px;
+        width: 200px;
+        height: 200px;
+    }
+
+  
+    100% {
+         top: -2500px;
+         width: 0px;
+         height: 0px;
+
+    }
+
+
+    
+}
+
+
+@keyframes aeroplane2 {
+    0% {
+        left: 400px; top: 1000px;
+        width: 200px;
+        height: 200px;
+    }
+
+  
+    100% {
+         top: -2500px;
+         width: 0px;
+         height: 0px;
+
+    }
+
+
+    
+}
+
+@keyframes helecopter2 {
+    0% {
+        left: 600px; top: 1500px;
+        width: 200px;
+        height: 200px;
+    }
+
+  
+    100% {
+         top: -2500px;
+         width: 0px;
+         height: 0px;
+
+    }
+
+
+    
+}
+
+
+@keyframes aeroplane3 {
+    0% {
+        left: 800px; top: 1000px;
+        width: 200px;
+        height: 200px;
+    }
+
+  
+    100% {
+         top: -2500px;
+         width: 0px;
+         height: 0px;
+
+    }
+
+
+    
+}
+
+@keyframes helecopter3 {
+    0% {
+        left: 1000px; top: 1500px;
+        width: 200px;
+        height: 200px;
+    }
+
+  
+    100% {
+         top: -2500px;
+         width: 0px;
+         height: 0px;
+
+    }
+
+
+    
+}
+
+        body{
+            background: linear-gradient(to bottom, rgb(222, 239, 247), blue);
+            background-position: center;
+            background-size: 150% 150%;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+            overflow: hidden;
+            position: relative;
+        }
+        .main1{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-bottom: 259px;
+            height: 300px;
+          
+            width: 600px;
+            box-shadow: 0px 0px 10px rgb(211, 174, 174);
+        }
+
+        .main1 button{
+            margin-top: 20px;
+            height: 30px;
+            width: 100px;
+            border-radius: 7px;
+            border: none;
+        }
+
+        .main1 h1{
+            margin-top: 40px;
+            color: aqua;
+            margin-bottom: 20px;
+        }
+
+        .main1 input{
+            height: 40px;
+            padding-left: 5px;
+            text-align: center;
+        }
+
+        .main1 .result{
+            background-color: lightblue;
+            border-radius: 20px;
+            width: 200px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <h1>FIZZBUZZ</h1>
+        <input id="input" type="number" placeholder="Enter your number">
+        <button onclick="run()">Check</button>
+        <div placeholder="See your result here" class="result" id="result"></div>
+       
+    </div>
+    <img class="pict" src="bubble.png" alt="">
+    <img class="picture" src="bubble.png" alt="">
+    <img class="pict2" src="bubble.png" alt="">
+    <img class="picture2" src="bubble.png" alt="">
+    <img class="pict3" src="bubble.png" alt="">
+    <img class="picture3" src="bubble.png" alt="">
+   
+
+    <script>
+        var inputEl = document.getElementById("input");
+        var resultEl = document.getElementById('result');
+
+        function run() {
+            if (inputEl.value % 3 == 0 && inputEl.value % 5 !== 0 ) {
+                resultEl.innerHTML = "FIZZ"
+            }else if (inputEl.value % 5 == 0 && inputEl.value % 3 !== 0) {
+                resultEl.innerHTML = 'BUZZ'
+            } else if (inputEl.value % 3 == 0 && inputEl.value % 5 == 0) {
+                resultEl.innerHTML = "FIZZBUZZ"
+            } else if (inputEl.value = "") {
+                alert("Enter a valid number")
+            } else {
+                alert('Enter a number that is divisible by 3 or 5')
+            }
+        };
+    </script>
+</body>
+</html>
